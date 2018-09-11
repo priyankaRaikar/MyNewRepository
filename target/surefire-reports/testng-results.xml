@@ -2,12 +2,26 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="82749" started-at="2018-09-03T17:50:28Z" finished-at="2018-09-03T17:51:51Z">
+  <suite name="Suite" duration-ms="17316" started-at="2018-09-06T19:31:36Z" finished-at="2018-09-06T19:31:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="82749" started-at="2018-09-03T17:50:28Z" finished-at="2018-09-03T17:51:51Z">
+    <test name="Test" duration-ms="17316" started-at="2018-09-06T19:31:36Z" finished-at="2018-09-06T19:31:54Z">
       <class name="com.driver.main.MainCaller">
-        <test-method status="PASS" signature="f()" name="f" duration-ms="82741" started-at="2018-09-03T17:50:28Z" finished-at="2018-09-03T17:51:51Z">
+        <test-method status="PASS" signature="a()" name="a" is-config="true" duration-ms="657" started-at="2018-09-06T19:31:36Z" finished-at="2018-09-06T19:31:37Z">
+        </test-method>
+        <test-method status="PASS" signature="f()" name="f" duration-ms="16549" started-at="2018-09-06T19:31:37Z" finished-at="2018-09-06T19:31:54Z">
+        </test-method>
+        <test-method status="PASS" signature="g(org.testng.ITestResult)" name="g" is-config="true" duration-ms="110" started-at="2018-09-06T19:31:54Z" finished-at="2018-09-06T19:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: f STATUS:SUCCESS METHOD:com.driver.main.MainCaller.f()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="z()" name="z" is-config="true" duration-ms="30011" started-at="2018-09-06T19:31:54Z" finished-at="2018-09-06T19:32:24Z">
         </test-method>
       </class>
     </test>

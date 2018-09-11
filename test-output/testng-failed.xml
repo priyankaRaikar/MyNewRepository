@@ -5,6 +5,9 @@
     <classes>
       <class name="com.driver.main.MainCaller">
         <methods>
+          <include name="g"/>
+          <include name="z"/>
+          <include name="a"/>
           <include name="f"/>
         </methods>
       </class> <!-- com.driver.main.MainCaller -->
